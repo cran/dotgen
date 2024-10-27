@@ -38,20 +38,20 @@ dot_tpm(Z, C, tau = 0.05, ...)
 }
 \value{
 a list of
-\itemize{
-\item{\code{X}:} {decorrelated  association statistics.}
-\item{\code{H}:} {orthogonal transformation, such that \code{X = H \%*\% Z}.}
-\item{\code{Y}:} {the overall combined statistic.}
-\item{\code{P}:} {the P-value corresponding to \code{Y}.}
+\describe{
+\item{\code{X}:}{decorrelated  association statistics.}
+\item{\code{H}:}{orthogonal transformation, such that \verb{X = H \\\%*\\\% Z}.}
+\item{\code{Y}:}{the overall combined statistic.}
+\item{\code{P}:}{the P-value corresponding to \code{Y}.}
 }
 
 for Augmented Rank Truncated Adaptive (ARTA) test,
-\itemize{
-\item{k:} {the number of decorrelated P-values that were adaptively picked.}}
+\describe{
+\item{k:}{the number of decorrelated P-values that were adaptively picked.}}
 
 for Truncated Product Method (TPM),
-\itemize{
-\item{k:} {the number of decorrelated P-values \eqn{\le} \code{tau}.}}
+\describe{
+\item{k:}{the number of decorrelated P-values \eqn{\le} \code{tau}.}}
 }
 \description{
 Decorrelates and combines per-variant genetic association test statistics, \code{Z},
@@ -81,19 +81,19 @@ reference (\strong{b}) details \code{\link[=dot_tpm]{dot_tpm()}} method.
 }
 \section{Functions}{
 \itemize{
-\item \code{dot_chisq}: decorrelation followed by a Chi-square test.
+\item \code{dot_chisq()}: decorrelation followed by a Chi-square test.
 
-\item \code{dot_fisher}: decorrelated Fisher's combined P-value test.
+\item \code{dot_fisher()}: decorrelated Fisher's combined P-value test.
 
-\item \code{dot_art}: decorrelated Augmented Rank Truncated (ART) test.
+\item \code{dot_art()}: decorrelated Augmented Rank Truncated (ART) test.
 
-\item \code{dot_arta}: decorrelated Augmented Rank Truncated Adaptive (ARTA) test.
+\item \code{dot_arta()}: decorrelated Augmented Rank Truncated Adaptive (ARTA) test.
 
-\item \code{dot_rtp}: decorrelated Rank Truncated Product (RTP) test.
+\item \code{dot_rtp()}: decorrelated Rank Truncated Product (RTP) test.
 
-\item \code{dot_tpm}: decorrelated Truncated Product Method (TPM) test.
+\item \code{dot_tpm()}: decorrelated Truncated Product Method (TPM) test.
+
 }}
-
 \examples{
 ## get the test statistics and pre-calculated LD matrix
 stt <- readRDS(system.file("extdata", 'art_zsc.rds', package="dotgen"))
@@ -139,7 +139,7 @@ Vsevolozhskaya, O.   A., Hu, F., &  Zaykin, D.  V. (2019).   \emph{Detecting wea
 signals  by  combining  small  P-values  in  genetic  association  studies.}
 Frontiers in genetics, 10, 1051.}
 
-(b) \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/gepi.0042}{Zaykin,
+(b) \href{https://pubmed.ncbi.nlm.nih.gov/11788962}{Zaykin,
 D.    V.,   Zhivotovsky,    L.     A.,   Westfall,    P.    H.,   &    Weir,
 B. S.  (2002). \emph{Truncated  product method  for combining  P-values.} Genetic
 Epidemiology, 22(2), 170-185.}

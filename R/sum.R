@@ -34,11 +34,11 @@
 #' @param ... additional parameters
 #'
 #' @return a list of
-#' \itemize{
-#' \item{`X`:} {decorrelated  association statistics.}
-#' \item{`H`:} {orthogonal transformation, such that `X = H %*% Z`.}
-#' \item{`Y`:} {the overall combined statistic.}
-#' \item{`P`:} {the P-value corresponding to \code{Y}.}
+#' \describe{
+#' \item{`X`:}{decorrelated  association statistics.}
+#' \item{`H`:}{orthogonal transformation, such that `X = H \%*\% Z`.}
+#' \item{`Y`:}{the overall combined statistic.}
+#' \item{`P`:}{the P-value corresponding to \code{Y}.}
 #' }
 #'
 #' @references
@@ -47,7 +47,7 @@
 #' signals  by  combining  small  P-values  in  genetic  association  studies._
 #' Frontiers in genetics, 10, 1051.}
 #'
-#' (b) \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/gepi.0042}{Zaykin,
+#' (b) \href{https://pubmed.ncbi.nlm.nih.gov/11788962}{Zaykin,
 #' D.    V.,   Zhivotovsky,    L.     A.,   Westfall,    P.    H.,   &    Weir,
 #' B. S.  (2002). _Truncated  product method  for combining  P-values._ Genetic
 #' Epidemiology, 22(2), 170-185.}
@@ -154,8 +154,8 @@ dot_art <- function(Z, C, k=NULL, ...)
 #'
 #' @return
 #' for Augmented Rank Truncated Adaptive (ARTA) test,
-#' \itemize{
-#' \item{k:} {the number of decorrelated P-values that were adaptively picked.}}
+#' \describe{
+#' \item{k:}{the number of decorrelated P-values that were adaptively picked.}}
 #'
 #' @param w weight assigned to partial sums in ARTA implementation; default is 1.
 #' 
@@ -262,8 +262,8 @@ dot_rtp <- function(Z, C, k=NULL, ...)
 #' @param tau combine (decorrelated) P-values no large than tau; default is 0.05.
 #' @return
 #' for Truncated Product Method (TPM),
-#' \itemize{
-#' \item{k:} {the number of decorrelated P-values \eqn{\le} \code{tau}.}}
+#' \describe{
+#' \item{k:}{the number of decorrelated P-values \eqn{\le} \code{tau}.}}
 #' @export
 dot_tpm <- function(Z, C, tau=0.05, ...)
 {

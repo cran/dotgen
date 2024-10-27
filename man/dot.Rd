@@ -19,12 +19,12 @@ obtained by \code{\link[=cst]{cst()}}.}
 \item{...}{additional parameters.}
 }
 \value{
-a  list with
-\itemize{
-\item{\code{X}:} {association test statistics, de-correlated.}
-\item{\code{H}:} {orthogonal transformation, such that \code{X = H \%*\% Z}.}
-\item{\code{M}:} {effective number of variants after de-correlation.}
-\item{\code{L}:} {effective number of eigenvalues after truncation.}
+a list with return values.
+\describe{
+\item{\code{X}:}{association test statistics, de-correlated.}
+\item{\code{H}:}{orthogonal transformation, such that \verb{X = H \\\%*\\\% Z}.}
+\item{\code{M}:}{effective number of variants after de-correlation.}
+\item{\code{L}:}{effective number of eigenvalues after truncation.}
 }
 }
 \description{

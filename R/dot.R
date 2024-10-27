@@ -47,12 +47,12 @@
 #' @param ... additional parameters.
 #'
 #' @return
-#' a  list with
-#' \itemize{
-#' \item{`X`:} {association test statistics, de-correlated.}
-#' \item{`H`:} {orthogonal transformation, such that `X = H %*% Z`.}
-#' \item{`M`:} {effective number of variants after de-correlation.}
-#' \item{`L`:} {effective number of eigenvalues after truncation.}
+#' a list with return values.
+#' \describe{
+#'  \item{`X`:}{association test statistics, de-correlated.}
+#'  \item{`H`:}{orthogonal transformation, such that `X = H \%*\% Z`.}
+#'  \item{`M`:}{effective number of variants after de-correlation.}
+#'  \item{`L`:}{effective number of eigenvalues after truncation.}
 #' }
 #' 
 #' @seealso [cst()], [zsc()], [dot_sst]

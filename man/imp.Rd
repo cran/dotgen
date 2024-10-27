@@ -40,8 +40,8 @@ inflation in Type I error rates.
 }
 \section{Functions}{
 \itemize{
-\item \code{imp_avg}: imputation by average.
+\item \code{imp_avg()}: imputation by average.
 
-\item \code{imp_cnd}: imputation by conditional expectation
+\item \code{imp_cnd()}: imputation by conditional expectation
+
 }}
-

@@ -1,10 +1,10 @@
-b0b1f7eb7a3e5524dd1cc3dc5b0cc79a *DESCRIPTION
+d6fca8f8033ae2bb10cb20e7bae9fa74 *DESCRIPTION
 cf68ea6b10d869e2c2383ed311cbdac2 *NAMESPACE
-92d77b079cb4691ef4a71ac60cb62eaa *R/dot.R
+c094566b63c85c80f67526aa7cb29d7f *R/dot.R
 af5f452558df66cd50349fdf4a9cdbe2 *R/hlp.R
 3407bff550f52011efb76a3d59282b8a *R/imp.R
 52376701aa14717cc18e12678f41a5da *R/ini.R
-ed717d34f593d128bb4e58442366c470 *R/sum.R
+1044a843776527f1089e874966ca1bcf *R/sum.R
 b0340c3f8fafbdb3ec416815fb9ee854 *R/utl.R
 2d4e9ba6b38a1bd7b665bdd4b9d8b276 *inst/extdata/art_ldm.rds
 7cb9029fef3fb3786695886c619ab456 *inst/extdata/art_res.rds
@@ -16,7 +16,7 @@ afa31ebd1a06cf67c8befadf8bbbd6d6 *inst/extdata/rs208294_g02.rds
 ad53f0021febf9746d331bf72f5e02fc *inst/extdata/rs208294_gno.rds
 2dc44ee9b94bd2ba0cc09d5f26bdc4cb *inst/extdata/rs208294_res.rds
 21af93cdf546535a7e8b5a13ff187c93 *man/cst.Rd
-02d290028ae99dd99d17013dc597800f *man/dot.Rd
-9ac828824e520bb1bec081ed86c1f704 *man/dot_sst.Rd
-85d2a1177889d5a59513c1d6f2d15c8c *man/imp.Rd
+278a07f014fe4d5f5162bcb85f12358e *man/dot.Rd
+3b49a3493f6b40419958a6ae3d587335 *man/dot_sst.Rd
+a3611240acff4e05caa6699fc18df130 *man/imp.Rd
 0251e634c9e8d552f1b6a1d827a441fc *man/zsc.Rd
